@@ -1,0 +1,51 @@
+{
+  "v": 1,
+  "name": "QuranicNextGen",
+  "updated": "",
+  "announce": { "on": false, "ms": "", "en": "", "link": "" },
+  "home": { "order": ["today", "ayah", "hadith", "lazim", "modes"], "hidden": [] },
+  "lazim": [
+    { "s": 18, "when": "friday" },
+    { "s": 36 },
+    { "s": 67, "when": "night" },
+    { "s": 56 },
+    { "s": 55 },
+    { "s": 32, "when": "night" },
+    { "s": 1 },
+    { "s": 112 }
+  ],
+  "hadith": [
+    {
+      "ar": "خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ",
+      "ms": "Sebaik-baik kamu ialah orang yang mempelajari al-Quran dan mengajarkannya.",
+      "en": "The best of you are those who learn the Quran and teach it.",
+      "source": "Sahih al-Bukhari 5027"
+    },
+    {
+      "ar": "اقْرَءُوا الْقُرْآنَ فَإِنَّهُ يَأْتِي يَوْمَ الْقِيَامَةِ شَفِيعًا لأَصْحَابِهِ",
+      "ms": "Bacalah al-Quran, kerana ia akan datang pada hari kiamat sebagai pemberi syafaat kepada pembacanya.",
+      "en": "Read the Quran, for on the Day of Resurrection it will come to intercede for those who read it.",
+      "source": "Sahih Muslim 804"
+    },
+    {
+      "ar": "مَنْ قَرَأَ حَرْفًا مِنْ كِتَابِ اللَّهِ فَلَهُ بِهِ حَسَنَةٌ وَالْحَسَنَةُ بِعَشْرِ أَمْثَالِهَا",
+      "ms": "Sesiapa membaca satu huruf daripada Kitab Allah, baginya satu kebaikan, dan satu kebaikan dibalas sepuluh kali ganda.",
+      "en": "Whoever reads a letter of the Book of Allah has a good deed for it, and a good deed is rewarded tenfold.",
+      "source": "Jami' at-Tirmidhi 2910"
+    },
+    {
+      "ar": "الْمَاهِرُ بِالْقُرْآنِ مَعَ السَّفَرَةِ الْكِرَامِ الْبَرَرَةِ وَالَّذِي يَقْرَأُ الْقُرْآنَ وَيَتَتَعْتَعُ فِيهِ وَهُوَ عَلَيْهِ شَاقٌّ لَهُ أَجْرَانِ",
+      "ms": "Orang yang mahir membaca al-Quran bersama para malaikat yang mulia lagi taat; dan orang yang membacanya tersekat-sekat dan terasa sukar baginya, mendapat dua pahala.",
+      "en": "The one skilled in the Quran is with the noble, righteous scribes; and the one who reads it haltingly, finding it hard, has two rewards.",
+      "source": "Sahih Muslim 798"
+    },
+    {
+      "ar": "إِنَّ اللَّهَ يَرْفَعُ بِهَذَا الْكِتَابِ أَقْوَامًا وَيَضَعُ بِهِ آخَرِينَ",
+      "ms": "Sesungguhnya Allah mengangkat darjat beberapa kaum dengan Kitab ini, dan merendahkan yang lain dengannya.",
+      "en": "Allah raises some people by this Book and lowers others by it.",
+      "source": "Sahih Muslim 817"
+    }
+  ],
+  "theme": {},
+  "analytics": { "goatcounter": "" }
+}

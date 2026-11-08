@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#3b2c5c"/>
+      <stop offset="0.55" stop-color="#1d1630"/>
+      <stop offset="1" stop-color="#0d0a14"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="512" cy="330" r="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.62"/>
+      <stop offset="0.35" stop-color="#e9a24a" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#e9a24a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="songket" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M36 2 L70 36 L36 70 L2 36 Z" fill="none" stroke="#e8c27a" stroke-width="1.6"/>
+      <path d="M36 20 L52 36 L36 52 L20 36 Z" fill="none" stroke="#e8c27a" stroke-width="1.1" opacity="0.7"/>
+      <circle cx="36" cy="36" r="2.4" fill="#e8c27a"/>
+    </pattern>
+    <radialGradient id="latticeFade" cx="512" cy="470" r="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </radialGradient>
+    <mask id="latticeMask"><rect width="1024" height="1024" fill="url(#latticeFade)"/></mask>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0bf"/>
+      <stop offset="0.35" stop-color="#e9bf62"/>
+      <stop offset="0.7" stop-color="#b47e2c"/>
+      <stop offset="1" stop-color="#7a4f17"/>
+    </linearGradient>
+    <linearGradient id="goldEdge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6d58a"/>
+      <stop offset="1" stop-color="#9a6a24"/>
+    </linearGradient>
+    <linearGradient id="pageL" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#d9c39a"/>
+      <stop offset="0.12" stop-color="#f4e8cf"/>
+      <stop offset="0.7" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#f1e3c4"/>
+    </linearGradient>
+    <linearGradient id="pageR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d9c39a"/>
+      <stop offset="0.12" stop-color="#f4e8cf"/>
+      <stop offset="0.7" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#f1e3c4"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5a2c12"/>
+      <stop offset="0.3" stop-color="#a65a26"/>
+      <stop offset="0.55" stop-color="#c97a3c"/>
+      <stop offset="1" stop-color="#6a3416"/>
+    </linearGradient>
+    <radialGradient id="flame" cx="0.5" cy="0.8" r="0.75" fx="0.5" fy="0.88">
+      <stop offset="0" stop-color="#fffef5"/>
+      <stop offset="0.3" stop-color="#ffe599"/>
+      <stop offset="0.66" stop-color="#f5a33c"/>
+      <stop offset="1" stop-color="#e2712f"/>
+    </radialGradient>
+    <radialGradient id="spill" cx="512" cy="400" r="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd98a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffd98a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="core" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fff6d0" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="blur24" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="24"/></filter>
+    <filter id="blur10" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    
+  </defs>
+  <g >
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+    <rect width="1024" height="1024" fill="url(#songket)" opacity="0.09" mask="url(#latticeMask)"/>
+    <circle cx="512" cy="330" r="420" fill="url(#halo)"/>
+    
+
+    <g transform="translate(102.39999999999998 104) scale(0.8)">
+      <!-- shadow on the ground -->
+      <ellipse cx="512" cy="914" rx="250" ry="26" fill="#000" opacity="0.5" filter="url(#blur10)"/>
+
+      <!-- rehal: two slats crossing, the book held in the upper V -->
+      <g filter="url(#soft)">
+        <path d="M262 528 L312 500 L760 900 L706 928 Z" fill="url(#wood)"/>
+        <path d="M762 528 L712 500 L264 900 L318 928 Z" fill="url(#wood)"/>
+        <path d="M262 528 L312 500 L760 900 L706 928 Z" fill="none" stroke="#2e1608" stroke-opacity="0.35" stroke-width="3"/>
+        <path d="M762 528 L712 500 L264 900 L318 928 Z" fill="none" stroke="#2e1608" stroke-opacity="0.35" stroke-width="3"/>
+        <path d="M286 512 L736 912" stroke="#f0b27a" stroke-opacity="0.35" stroke-width="5" stroke-linecap="round"/>
+        <path d="M738 512 L288 912" stroke="#f0b27a" stroke-opacity="0.22" stroke-width="5" stroke-linecap="round"/>
+        <!-- a brass clove flower where the slats cross -->
+        <g transform="translate(512 726)">
+          <circle r="46" fill="url(#gold)"/>
+          <g fill="none" stroke="#7a4f17" stroke-width="5">
+            <circle cx="0" cy="-17" r="15"/><circle cx="17" cy="0" r="15"/><circle cx="0" cy="17" r="15"/><circle cx="-17" cy="0" r="15"/>
+          </g>
+          <circle r="7" fill="#b2434f"/>
+          <circle cx="-14" cy="-16" r="10" fill="#fff6d8" opacity="0.6"/>
+        </g>
+      </g>
+
+      <!-- the mushaf: page blocks first (their gilded edges), then the open pages -->
+      <g filter="url(#soft)">
+        <path d="M512 640 C430 586 330 574 222 592 L222 386 C330 368 430 380 512 434 Z" fill="url(#goldEdge)" transform="translate(-6 20)"/>
+        <path d="M512 640 C594 586 694 574 802 592 L802 386 C694 368 594 380 512 434 Z" fill="url(#goldEdge)" transform="translate(6 20)"/>
+        <path d="M512 626 C430 572 330 560 226 578 L226 372 C330 354 430 366 512 420 Z" fill="url(#pageL)"/>
+        <path d="M512 626 C594 572 694 560 798 578 L798 372 C694 354 594 366 512 420 Z" fill="url(#pageR)"/>
+        <!-- lines of text, following each page's curve -->
+        <g fill="none" stroke="#b9873a" stroke-width="7" stroke-linecap="round" opacity="0.55">
+          <path d="M480 458 C420 420 340 410 262 420"/><path d="M478 490 C420 451 340 441 262 452"/><path d="M476 522 C420 482 340 472 262 484"/><path d="M474 554 C420 513 340 503 262 516"/><path d="M472 586 C420 544 340 534 262 548"/>
+          <path d="M544 458 C604 420 684 410 762 420"/><path d="M546 490 C604 451 684 441 762 452"/><path d="M548 522 C604 482 684 472 762 484"/><path d="M550 554 C604 513 684 503 762 516"/><path d="M552 586 C604 544 684 534 762 548"/>
+        </g>
+        <path d="M512 420 L512 626" stroke="#a88a5c" stroke-width="4" opacity="0.6"/>
+        <!-- the light falling on the open pages -->
+        <path d="M512 626 C430 572 330 560 226 578 L226 372 C330 354 430 366 512 420 C594 366 694 354 798 372 L798 578 C694 560 594 572 512 626 Z" fill="url(#spill)"/>
+      </g>
+
+      <!-- light rising from the fold -->
+      <path d="M512 150 C548 222 598 262 588 326 C580 374 548 402 512 402 C476 402 444 374 436 326 C426 262 476 222 512 150 Z" fill="#ffcf6a" opacity="0.8" filter="url(#blur24)"/>
+      <path d="M512 160 C546 228 592 266 583 326 C575 371 545 398 512 398 C479 398 449 371 441 326 C432 266 478 228 512 160 Z" fill="url(#flame)"/>
+      <path d="M512 252 C530 292 548 312 544 346 C541 372 528 388 512 388 C496 388 483 372 480 346 C476 312 494 292 512 252 Z" fill="url(#core)"/>
+      <!-- sparks: small lozenges, not stars -->
+      <g fill="#ffe3a0">
+        <path d="M358 238 L366 262 L358 286 L350 262 Z" opacity="0.85"/>
+        <path d="M672 206 L679 226 L672 246 L665 226 Z" opacity="0.75"/>
+        <path d="M650 330 L655 344 L650 358 L645 344 Z" opacity="0.6"/>
+        <path d="M384 340 L389 352 L384 364 L379 352 Z" opacity="0.55"/>
+      </g>
+    </g>
+  </g>
+</svg>
