@@ -1,10 +1,17 @@
 {
   "now": [
+    "Admin-C-LRAHI2.js",
+    "ear.worker-Y2NOirfQ.js",
+    "index-CCr9tXt1.js",
+    "index-DcD6Q_Aa.css",
+    "ort-wasm-simd-threaded.asyncify-CxOG5pUO.wasm",
+    "workbox-window.prod.es5-Bd17z0YL.js"
+  ],
+  "before": [
     "ear.worker-wmXTtFi_.js",
     "index-BghuTo-F.js",
     "index-BOuL5oJ1.css",
     "ort-wasm-simd-threaded.asyncify-CxOG5pUO.wasm",
     "workbox-window.prod.es5-Bd17z0YL.js"
-  ],
-  "before": []
+  ]
 }
