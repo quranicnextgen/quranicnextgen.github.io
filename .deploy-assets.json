@@ -1,20 +1,22 @@
 {
   "now": [
+    "Admin-NeKCdibl.js",
+    "clean.worklet-C_KIi0cW.js",
+    "ear.worker-Y2NOirfQ.js",
+    "index-DjaAbwyK.css",
+    "index-r5UMcFMI.js",
+    "lamejs-DxgK9G4m.js",
+    "ort-wasm-simd-threaded.asyncify-CxOG5pUO.wasm",
+    "Tahlil-BcCcOsW-.js",
+    "workbox-window.prod.es5-Bd17z0YL.js"
+  ],
+  "before": [
     "Admin-BRNFoNmk.js",
     "ear.worker-Y2NOirfQ.js",
     "index-BVnnGZzb.js",
     "index-CegcrFBE.css",
     "ort-wasm-simd-threaded.asyncify-CxOG5pUO.wasm",
     "Tahlil-SAarNU1l.js",
-    "workbox-window.prod.es5-Bd17z0YL.js"
-  ],
-  "before": [
-    "Admin-1ioJOgAV.js",
-    "ear.worker-Y2NOirfQ.js",
-    "index-CegcrFBE.css",
-    "index-CSa6qA24.js",
-    "ort-wasm-simd-threaded.asyncify-CxOG5pUO.wasm",
-    "Tahlil-BW5jnXiQ.js",
     "workbox-window.prod.es5-Bd17z0YL.js"
   ]
 }
