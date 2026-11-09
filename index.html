@@ -22,14 +22,25 @@
     <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="ms_MY" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" />
+    <!-- The home-screen name and icon, PNG only. An SVG icon in the page or the
+         manifest makes Safari give up on every icon and draw a letter instead
+         (WebKit bug 256429). A browser that adds a shortcut rather than
+         installing (Brave, or Chrome without Play services) takes the largest
+         touch icon from this head, and draws a letter when that is smaller
+         than the phone's launcher icon (192px on a dense screen), so there is
+         a 512px one beside iOS's 180px one. The 180px icon also sits at the
+         site's root, where iOS looks when a page names none. -->
+    <meta name="application-name" content="QuranicNextGen" />
+    <meta name="apple-mobile-web-app-title" content="QuranicNextGen" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/icons/apple-touch-icon-512.png" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
     <link rel="icon" href="/icons/favicon-32.png" sizes="32x32" type="image/png" />
-    <!-- iOS takes its home-screen icon from here; without a PNG it draws a letter instead -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <link rel="icon" href="/icons/icon-192.png" sizes="192x192" type="image/png" />
     <link rel="preload" href="/fonts/KFGQPC-HAFS-Uthmanic.ttf" as="font" type="font/ttf" crossorigin />
     <title>QuranicNextGen</title>
-    <script type="module" crossorigin src="/assets/index-r5UMcFMI.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DjaAbwyK.css">
+    <script type="module" crossorigin src="/assets/index-DD1N5JV7.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CIaahx_0.css">
   <link rel="manifest" href="/manifest.webmanifest"></head>
   <body>
     <div id="root"></div>
