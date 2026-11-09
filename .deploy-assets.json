@@ -1,5 +1,18 @@
 {
   "now": [
+    "Admin-SX4thGOV.js",
+    "clean.worklet-C_KIi0cW.js",
+    "ear.worker-Y2NOirfQ.js",
+    "index-Ba0kKMRB.js",
+    "index-BCgBe5KB.css",
+    "lamejs-DxgK9G4m.js",
+    "ort-wasm-simd-threaded.asyncify-CxOG5pUO.wasm",
+    "Tahlil-BN4gDDKN.js",
+    "tap.worklet-CTOSC8yf.js",
+    "Tasmik-D6WFaNRB.js",
+    "workbox-window.prod.es5-Bd17z0YL.js"
+  ],
+  "before": [
     "Admin-Kvr9Z4Ph.js",
     "clean.worklet-C_KIi0cW.js",
     "ear.worker-Y2NOirfQ.js",
@@ -8,17 +21,6 @@
     "lamejs-DxgK9G4m.js",
     "ort-wasm-simd-threaded.asyncify-CxOG5pUO.wasm",
     "Tahlil-CLiY1lrQ.js",
-    "workbox-window.prod.es5-Bd17z0YL.js"
-  ],
-  "before": [
-    "Admin-NeKCdibl.js",
-    "clean.worklet-C_KIi0cW.js",
-    "ear.worker-Y2NOirfQ.js",
-    "index-DjaAbwyK.css",
-    "index-r5UMcFMI.js",
-    "lamejs-DxgK9G4m.js",
-    "ort-wasm-simd-threaded.asyncify-CxOG5pUO.wasm",
-    "Tahlil-BcCcOsW-.js",
     "workbox-window.prod.es5-Bd17z0YL.js"
   ]
 }
