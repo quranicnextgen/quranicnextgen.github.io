@@ -1,5 +1,18 @@
 {
   "now": [
+    "Admin-DZkgi3CY.js",
+    "clean.worklet-C_KIi0cW.js",
+    "ear.worker-Y2NOirfQ.js",
+    "index-Bn268Nid.css",
+    "index-BudUZpDF.js",
+    "lamejs-DxgK9G4m.js",
+    "ort-wasm-simd-threaded.asyncify-CxOG5pUO.wasm",
+    "Tahlil-DqIYTt99.js",
+    "tap.worklet-CTOSC8yf.js",
+    "Tasmik-CHxxqg0R.js",
+    "workbox-window.prod.es5-Bd17z0YL.js"
+  ],
+  "before": [
     "Admin-CzP6tjqW.js",
     "clean.worklet-C_KIi0cW.js",
     "ear.worker-Y2NOirfQ.js",
@@ -10,19 +23,6 @@
     "Tahlil-C_wU_SeJ.js",
     "tap.worklet-CTOSC8yf.js",
     "Tasmik-DQn3GOWP.js",
-    "workbox-window.prod.es5-Bd17z0YL.js"
-  ],
-  "before": [
-    "Admin-SX4thGOV.js",
-    "clean.worklet-C_KIi0cW.js",
-    "ear.worker-Y2NOirfQ.js",
-    "index-Ba0kKMRB.js",
-    "index-BCgBe5KB.css",
-    "lamejs-DxgK9G4m.js",
-    "ort-wasm-simd-threaded.asyncify-CxOG5pUO.wasm",
-    "Tahlil-BN4gDDKN.js",
-    "tap.worklet-CTOSC8yf.js",
-    "Tasmik-D6WFaNRB.js",
     "workbox-window.prod.es5-Bd17z0YL.js"
   ]
 }
