@@ -47,5 +47,6 @@
     }
   ],
   "theme": {},
-  "analytics": { "goatcounter": "" }
+  "analytics": { "goatcounter": "" },
+  "auth": { "google": "609004728643-eog28r0s9fta374md32o5r203ptg2fu7.apps.googleusercontent.com", "microsoft": "", "dropbox": "" }
 }
