@@ -16,5 +16,11 @@
     document.getElementById('m').textContent = 'Storan pelayar disekat. Log masuk tidak dapat diteruskan.';
     return;
   }
-  location.replace(new URL('./#/me', location.href).href);
+  // back to the screen the reader was on (a renewal on opening the app), or to Me
+  var back = '#/me';
+  try {
+    var p = JSON.parse(localStorage.getItem('qng.cloud.pending') || 'null');
+    if (p && typeof p.back === 'string' && p.back.length < 4000 && /^#\/[^\s<>"'`\\]*$/.test(p.back)) back = p.back;
+  } catch (e) {}
+  location.replace(new URL('./' + back, location.href).href);
 })();
